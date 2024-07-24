@@ -56,19 +56,20 @@ These books are stored in the `data` directory and are processed to create the k
 ### Steps
 
 1. Clone the repository:
-git clone [Your Repository URL]
-cd [Your Repository Name]
-Copy
+```
+git clone https://github.com/Surya-KF/MediSaga-RAG-Chatbot-Application.git
+cd MediSaga-RAG-Chatbot-Application
+```
 2. Create a virtual environment and activate it:
 ``` 
 python -m venv venv
 source venv/bin/activate  # On Windows, use venv\Scripts\activate
 ```  
-4. Install the required packages:
+3. Install the required packages:
 ```
 pip install -r requirements.txt
 ```
-5. Set up Milvus using Docker:
+4. Set up Milvus using Docker:
 - Ensure Docker and Docker Compose are installed on your system
 - Run the following command to start Milvus:
   ```
@@ -76,10 +77,10 @@ pip install -r requirements.txt
   ```
 - This will start Milvus on the default port 19530
 
-7. Configure the application:
+5. Configure the application:
 - Edit `config.json` to set your desired parameters, including the Milvus host and port.
 
-8. Prepare your data:
+6. Prepare your data:
 - Place your PDF textbooks in the `data` directory.
 
 ## Running the System
@@ -158,7 +159,7 @@ The project uses Milvus, an open-source vector database, for efficient similarit
 - Similarity search is performed using the L2 distance metric
 
 ## Ollama Integration
-The project uses Ollama to interact with the Llama2 model:
+The project uses Ollama to interact with the Llama3 model:
 - Ollama is used for text summarization in the RAPTOR indexing process
 - It's also used for generating final answers to user queries
 
