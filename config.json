@@ -8,3 +8,4 @@
     "collection_name": "medical_qa",
     "vector_dim": 384,
     "top_k": 5
+}
