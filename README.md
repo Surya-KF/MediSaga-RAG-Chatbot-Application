@@ -193,5 +193,16 @@ Users can assess the relevance of answers based on the provided source informati
   ollama pull llama3
   ```
 
+## Contributing
+
+Contributions are welcome! Please create a pull request or open an issue to discuss any changes or improvements.
+
+## License
+
+This project is licensed under the MIT License.
+
 ## Contact
-For any questions or clarifications, please contact [KF SURYA] at [suryakf04@gmail.com ].
+
+For any inquiries or support, please contact [suryakf04@gmail.com].
+
+---
